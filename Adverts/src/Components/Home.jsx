@@ -1,8 +1,11 @@
 import React from 'react'
+import GlovoBlogPage from './GlovoArticle'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <GlovoBlogPage />
+    </div>
   )
 }
 
