@@ -4,7 +4,7 @@ export default function GlovoBlogPage() {
   const [code, setCode] = useState("");
 
   function handleComplete() {
-    const redirectUrl = "https://omg10.com/4/11124638";
+    const redirectUrl = "https://omg10.com/4/11127579";
     if (typeof window !== "undefined") {
       window.open(redirectUrl, "_blank");
     }
